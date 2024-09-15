@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Colours --- */
+.bg-color-name-title {
+  background-color: #676767;
+}
+
+/* --- Heading--- */
+.heading {
+  margin-left: 50px;
+}
+
+.logo {
+  background: url(../images/terry.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 360px;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  filter: grayscale(100%) brightness(90%) contrast(140%)
+    drop-shadow(3px 0px 3px rgba(0, 0, 0, 0.4));
+}
+
+.name {
+  font-family: 'Exo', sans-serif;
+  font-weight: 100;
+  font-size: 46px;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.title {
+  font-weight: 200;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+  color: #fff;
+}
