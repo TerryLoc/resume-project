@@ -12,6 +12,18 @@ body {
 .bg-color-name-title {
   background-color: #676767;
 }
+.ui-menu-color-home {
+  background-color: #93663f;
+}
+.ui-menu-color-resume {
+  background-color: #644074;
+}
+.ui-menu-color-contact {
+  background-color: #486579;
+}
+.ui-menu-color-download {
+  background-color: #4c4c4c;
+}
 
 /* --- Heading--- */
 .heading {
@@ -27,7 +39,7 @@ body {
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
-  filter: grayscale(100%) brightness(90%) contrast(140%)
+  filter: grayscale(100%) brightness(90%) contrast(130%)
     drop-shadow(3px 0px 3px rgba(0, 0, 0, 0.4));
 }
 
@@ -45,4 +57,59 @@ body {
   margin-top: 20px;
   margin-bottom: 90px;
   color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+  margin: 0;
+}
+
+.menucontainer {
+  font-size: 0;
+}
+
+#nav {
+  margin: 0;
+}
+
+#nav li {
+  font-size: 14px;
+  padding: 0;
+}
+
+.menu-item {
+  height: 120px;
+  text-align: center;
+  padding: 0;
+}
+
+.menu-item a {
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  height: 120px;
+}
+
+.menu-item a i {
+  padding-top: 25px;
+  display: block;
+  color: #fafafa;
+  font-size: 25px;
+}
+
+.menu-item span {
+  width: 100%;
+  padding-top: 10px;
+  display: block;
+  font-size: 14px;
+  color: #fafafa;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+/* --- hover.css --- */
+.hvr-sweep-to-bottom::before {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 120px;
 }
