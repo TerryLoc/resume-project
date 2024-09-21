@@ -30,6 +30,10 @@ body {
   background-color: #4c4c4c;
 }
 
+.bg-color-personal-info {
+  background-color: #eeeeee;
+}
+
 /* --- special padding/ margins / text --- */
 h1,
 h2,
@@ -69,6 +73,14 @@ h5 {
   font-weight: 300;
   margin-top: 25px;
   margin-bottom: 40px;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.extra-padding {
+  padding: 0 20px;
 }
 
 /* --- Heading--- */
