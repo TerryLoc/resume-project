@@ -18,10 +18,10 @@ body {
 }
 
 .ui-menu-color-home {
-  background-color: #93663f;
+  background-color: #d69053;
 }
 .ui-menu-color-resume {
-  background-color: #644074;
+  background-color: #734787;
 }
 .ui-menu-color-contact {
   background-color: #486579;
@@ -160,7 +160,7 @@ h5 {
 /* --- Footer --- */
 
 footer {
-  background-color: #4c4c4c;
+  background-color: #676767;
   color: #fafafa;
   padding: 20px 0;
   margin: 0;
@@ -185,7 +185,8 @@ footer {
 }
 
 .cv-pdf i:hover {
-  color: #6284ff;
+  color: #c097d3;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .social-links {
@@ -211,7 +212,8 @@ footer {
 }
 
 .social-links li a i:hover {
-  background: #6284ff;
+  background: #486579;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #footer-details {
@@ -222,7 +224,7 @@ footer {
 
 .three-reasons-icon {
   font-size: 26px;
-  color: #6284ff;
+  color: #d69053;
 }
 
 .three-reasons-heading {
