@@ -34,6 +34,10 @@ body {
   background-color: #eeeeee;
 }
 
+.bg-color-work-history {
+  background-color: #734787;
+}
+
 /* --- special padding/ margins / text --- */
 h1,
 h2,
@@ -241,6 +245,9 @@ footer {
 
 .three-reasons-heading {
   margin-bottom: 15px;
+  letter-spacing: 1px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 700;
 }
 
 /* --- Personal Info --- */
@@ -290,9 +297,58 @@ footer {
   font-weight: 400;
   padding: 5px 30px 3px 10px;
   color: #fafafa;
-  background-color: rgba(25, 25, 25, 0.2);
+  background-color: rgba(25, 25, 25, 0.3);
 }
 
 .progress-secton {
   margin: 50px 25px;
+}
+
+/* --- Work History ---*/
+
+.history-heading {
+  color: #fafafa;
+  margin-bottom: 50px;
+}
+
+.timeline-item {
+  padding: 4em 2em 0 2em;
+  position: relative;
+  color: #fafafa;
+  border-left: 1px solid;
+}
+
+.timeline-item p {
+  margin: 0;
+  padding: 0;
+}
+
+.timeline-item::before {
+  content: attr(data-dates);
+  position: absolute;
+  left: 2.5em;
+  top: 3em;
+  display: block;
+  font-family: 'Exo', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline-item::after {
+  width: 12px;
+  height: 12px;
+  display: block;
+  top: 2.5em;
+  position: absolute;
+  left: -6px;
+  border-radius: 12px;
+  content: '';
+  background-color: #fafafa;
+}
+
+.history-items {
+  margin-bottom: 50px;
 }
