@@ -371,11 +371,21 @@ footer {
   max-width: 70%;
 }
 
+.center-form input {
+  background-color: rgba(25, 25, 25, 0.1);
+  padding: 10px;
+}
+
+.center-form textarea {
+  background-color: rgba(25, 25, 25, 0.1);
+  padding: 10px;
+}
+
 button[type='submit'] {
   background-color: #577385;
   color: #fafafa;
   border: none;
-  margin-bottom: 30px;
+  margin: 30px;
   padding: 10px 20px;
   font-size: 16px;
   font-weight: 300;
